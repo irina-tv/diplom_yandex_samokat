@@ -1,4 +1,6 @@
 # Ирина Твердикова, 22-я когорта — Финальный проект. Инженер по тестированию плюс
+import data
+from sendor_stand_request import create_order, get_order
 # Автотест
 def test_order_creation_and_retrieval():
     response = create_order(data.order_body)
@@ -11,5 +13,3 @@ def test_order_creation_and_retrieval():
 
     assert order_response.status_code == 200, f"Ошибка: {order_response.status_code}"
     order_data = order_response.json()
-    print("Данные заказа:")
-    print(order_data)

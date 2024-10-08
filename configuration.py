@@ -1,5 +1,5 @@
 # Ирина Твердикова, 22-я когорта — Финальный проект. Инженер по тестированию плюс
 
-URL_SERVICE = "https://f75664ea-2024-4695-87df-e1e6ee80a2b7.serverhub.praktikum-services.ru/"
+URL_SERVICE = "https://d75ca54c-369b-45c6-a868-5c1dcd5bfe6f.serverhub.praktikum-services.ru/"
 CREAT_ORDERS = "/api/v1/orders"
-TRACK_URL = "/api/v1/orders/track?t="
+track_number = "/api/v1/orders/track?t="
